@@ -1,0 +1,13 @@
+
+{{!-- views/partials/footer.handlebars --}}
+
+<footer>
+    <div>
+        <i class="fa fa-copyright"></i>
+        {{#getYear}}{{/getYear}} {{settings.band_name}}
+    </div>
+    <div>
+		{{> social-links}}
+    </div>
+    {{> signup-form}}
+</footer>

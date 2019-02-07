@@ -1,0 +1,7 @@
+{{!-- views/partials/social-links.handlebars --}}
+
+{{#each socials}}
+    <a class="social-link" href="{{this}}" target="_blank">
+        <i class="fa fa-{{@key}}" title="{{@key}}"></i>
+    </a>
+{{/each}}
