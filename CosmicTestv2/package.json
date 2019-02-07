@@ -10,6 +10,9 @@
     "test:unit": "mocha --recursive test/middleware test/models test/routes",
     "test:integration": "mocha --recursive test/integration"
   },
+  "engines": {
+    "node": "10.15.1"
+  },
   "dependencies": {
     "async": "^2.6.1",
     "axios": "^0.18.0",
